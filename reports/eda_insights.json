@@ -1,0 +1,98 @@
+{
+  "as_of": "2026-10-12",
+  "audit": {
+    "source_line_items": 10194,
+    "duplicate_identical_rows": 0,
+    "line_items_after_exact_dedup": 10194,
+    "unique_order_ids": 8549,
+    "valid_line_items": 10194,
+    "valid_dispatch_records": 8549,
+    "invalid_or_missing_dates": 0,
+    "negative_raw_intervals": 0,
+    "unmapped_products": 0,
+    "excluded_line_items": 0,
+    "dispatches_over_365_raw_days": 8549,
+    "dispatches_with_future_ship_date": 8245,
+    "dispatches_in_diagnostic_bands": 8549,
+    "us_dispatches": 8389,
+    "canada_dispatches": 160,
+    "as_of": "2026-10-12",
+    "order_date_min": "2024-01-02",
+    "order_date_max": "2025-12-31",
+    "ship_date_min": "2026-06-30",
+    "ship_date_max": "2030-06-28"
+  },
+  "raw": {
+    "shipments": 8549,
+    "mean_days": 1321.3693999298164,
+    "median_days": 1274.0,
+    "p90_days": 1640.0,
+    "delay_rate_pct": 36.21476196046321,
+    "routes": 196,
+    "us": 8389,
+    "canada": 160
+  },
+  "exploratory": {
+    "shipments": 8549,
+    "mean_days": 4.29477131828284,
+    "median_days": 4.0,
+    "p90_days": 7.0,
+    "delay_rate_pct": 24.59936834717511,
+    "routes": 196,
+    "us": 8389,
+    "canada": 160
+  },
+  "mode_summary": [
+    {
+      "Ship Mode": "Same Day",
+      "shipments": 442,
+      "avg_days": 0.3778280542986425,
+      "median_days": 0.0,
+      "sd_days": 0.5257598214667681,
+      "p90_days": 1.0,
+      "delay_rate_pct": 0.0,
+      "sales": 7113.67,
+      "units": 1975,
+      "efficiency_score": 100.0
+    },
+    {
+      "Ship Mode": "First Class",
+      "shipments": 1312,
+      "avg_days": 2.5541158536585367,
+      "median_days": 3.0,
+      "sd_days": 0.883857165631081,
+      "p90_days": 4.0,
+      "delay_rate_pct": 0.0,
+      "sales": 21319.39,
+      "units": 5724,
+      "efficiency_score": 55.94685390923021
+    },
+    {
+      "Ship Mode": "Second Class",
+      "shipments": 1653,
+      "avg_days": 3.540834845735027,
+      "median_days": 3.0,
+      "sd_days": 1.26426333188318,
+      "p90_days": 5.0,
+      "delay_rate_pct": 6.654567453115548,
+      "sales": 27860.22,
+      "units": 7546,
+      "efficiency_score": 35.97335779292246
+    },
+    {
+      "Ship Mode": "Standard Class",
+      "shipments": 5142,
+      "avg_days": 5.3179696616102685,
+      "median_days": 5.0,
+      "sd_days": 1.1238358954371497,
+      "p90_days": 7.0,
+      "delay_rate_pct": 38.75923765071956,
+      "sales": 85490.35,
+      "units": 23409,
+      "efficiency_score": 0.0
+    }
+  ],
+  "route_min_volume_paper": 50,
+  "eligible_routes": 34,
+  "data_caveat": "Unverified 904/1269/1634-day offset scenario; not delivery-time evidence."
+}
