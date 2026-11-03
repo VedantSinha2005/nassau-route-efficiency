@@ -83,7 +83,7 @@ def table_view(data,columns):
         st.info('No eligible records for this selection. Try lowering minimum route volume.')
         return
     work=data[columns].rename(columns=friendly).copy()
-    formatters={x:'%.1f' for x in ['Avg days','Median days','Std. dev. days','P90 days',
+    formatters={x:'{:.1f}' for x in ['Avg days','Median days','Std. dev. days','P90 days',
                                    'Delayed (%)','Efficiency (0-100)'] if x in work}
     st.dataframe(work.style.format(formatters),hide_index=True,use_container_width=True)
 
